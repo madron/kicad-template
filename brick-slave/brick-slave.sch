@@ -88,13 +88,13 @@ GPIO4
 Text GLabel 2050 1750 0    50   Input ~ 0
 GPIO5
 Text GLabel 2050 1850 0    50   Input ~ 0
-GPIO15
+GPIO14
 Text GLabel 2050 1950 0    50   Input ~ 0
-GPIO16
+GPIO15
 Text GLabel 2050 2050 0    50   Input ~ 0
-GPIO32
+GPIO35
 Text GLabel 2050 2150 0    50   Input ~ 0
-GPIO33
+GPIO36
 $Comp
 L power:+24V #PWR04
 U 1 1 600DEECD
@@ -166,13 +166,13 @@ F 3 "~" H 900 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1100 2150 2    50   Input ~ 0
-GPIO33
+GPIO36
 Text GLabel 1100 2050 2    50   Input ~ 0
-GPIO32
+GPIO35
 Text GLabel 1100 1950 2    50   Input ~ 0
-GPIO16
-Text GLabel 1100 1850 2    50   Input ~ 0
 GPIO15
+Text GLabel 1100 1850 2    50   Input ~ 0
+GPIO14
 Text GLabel 1100 1750 2    50   Input ~ 0
 GPIO5
 Text GLabel 1100 1650 2    50   Input ~ 0
