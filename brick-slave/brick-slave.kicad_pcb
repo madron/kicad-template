@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210623) (generator pcbnew)
+(kicad_pcb (version 20210722) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -82,7 +82,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" (layer "F.Cu")
     (tedit 600CA424) (tstamp 00000000-0000-0000-0000-0000600cfa97)
-    (at 113.411 121.92 180)
+    (at 104.775 121.92 180)
     (descr "Through hole angled socket strip, 1x06, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole angled socket strip THT 1x06 2.54mm single row")
     (path "/00000000-0000-0000-0000-00006012ed6c")
@@ -451,7 +451,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" (layer "F.Cu")
     (tedit 5FA6D208) (tstamp 00000000-0000-0000-0000-000060e961ea)
-    (at 113.411 99.06 180)
+    (at 104.775 99.06 180)
     (descr "Through hole angled socket strip, 1x06, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole angled socket strip THT 1x06 2.54mm single row")
     (path "/00000000-0000-0000-0000-00005fa73c4e")
@@ -558,15 +558,15 @@
     )
   )
 
-  (gr_line (start 124.46 57.15) (end 124.46 124.46) (layer "Edge.Cuts") (width 0.05) (tstamp 23c3ec1d-cb5b-47e0-86a2-26892a8bc15a))
+  (gr_line (start 115.824 57.15) (end 115.824 124.46) (layer "Edge.Cuts") (width 0.05) (tstamp 23c3ec1d-cb5b-47e0-86a2-26892a8bc15a))
   (gr_line (start 63.5 124.46) (end 63.5 57.15) (layer "Edge.Cuts") (width 0.05) (tstamp 290a0d14-de36-4aca-bbd8-c54dddb398d7))
-  (gr_line (start 66.04 54.61) (end 121.92 54.61) (layer "Edge.Cuts") (width 0.05) (tstamp 7ff68af0-825d-4fb6-a260-670a9be1e33f))
+  (gr_line (start 66.04 54.61) (end 113.284 54.61) (layer "Edge.Cuts") (width 0.05) (tstamp 7ff68af0-825d-4fb6-a260-670a9be1e33f))
   (gr_arc (start 66.04 57.15) (end 66.04 54.61) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp 8d4dd0c1-3cd7-42e2-97b7-2a895cda37ba))
-  (gr_line (start 66.04 127) (end 121.92 127) (layer "Edge.Cuts") (width 0.05) (tstamp 8e7d78fb-e0b1-4562-94d1-90eb25576e83))
+  (gr_line (start 66.04 127) (end 113.284 127) (layer "Edge.Cuts") (width 0.05) (tstamp 8e7d78fb-e0b1-4562-94d1-90eb25576e83))
   (gr_arc (start 66.04 124.46) (end 63.5 124.46) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp b7a358b5-0c13-4e3f-ba76-86782ce5dc9e))
-  (gr_arc (start 121.92 124.46) (end 121.92 127) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp d0695945-e153-4850-83a8-45014bf0d5dd))
-  (gr_arc (start 121.92 57.15) (end 124.46 57.15) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp d617ee85-8a02-465c-901a-1e7833fcb7a7))
-  (gr_text "24V" (at 109.22 86.36) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000600d125a)
+  (gr_arc (start 113.284 124.46) (end 113.284 127) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp d0695945-e153-4850-83a8-45014bf0d5dd))
+  (gr_arc (start 113.284 57.15) (end 115.824 57.15) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp d617ee85-8a02-465c-901a-1e7833fcb7a7))
+  (gr_text "24V" (at 100.584 86.36) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000600d125a)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "SCL" (at 71.12 99.06) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000600d9294)
@@ -605,101 +605,160 @@
   (gr_text "IO14" (at 71.12 116.84) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000600d92c3)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "GND" (at 109.22 93.98) (layer "F.SilkS") (tstamp 053ff279-d5db-47a8-98c0-a7fa0fe4e6e0)
+  (gr_text "GND" (at 100.584 93.98) (layer "F.SilkS") (tstamp 053ff279-d5db-47a8-98c0-a7fa0fe4e6e0)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "3.3V" (at 109.22 91.44) (layer "F.SilkS") (tstamp 27ba317f-7334-46b5-a946-a51d77d25098)
+  (gr_text "3.3V" (at 100.584 91.44) (layer "F.SilkS") (tstamp 27ba317f-7334-46b5-a946-a51d77d25098)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "SCL" (at 109.22 99.06) (layer "F.SilkS") (tstamp 36981d6b-f815-440e-a57e-c3a75a48ec2e)
+  (gr_text "SCL" (at 100.584 99.06) (layer "F.SilkS") (tstamp 36981d6b-f815-440e-a57e-c3a75a48ec2e)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "IO14" (at 109.22 116.84) (layer "F.SilkS") (tstamp 3a5ee383-d441-4657-a452-74327c44edd8)
+  (gr_text "IO14" (at 100.584 116.84) (layer "F.SilkS") (tstamp 3a5ee383-d441-4657-a452-74327c44edd8)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "SDA" (at 109.22 96.52) (layer "F.SilkS") (tstamp 3e5d3996-8c5f-48ca-9241-521bfd3a1e54)
+  (gr_text "SDA" (at 100.584 96.52) (layer "F.SilkS") (tstamp 3e5d3996-8c5f-48ca-9241-521bfd3a1e54)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "IO5" (at 109.728 119.38) (layer "F.SilkS") (tstamp 5022fa07-4d99-46c0-adc5-e0e2e2caa70e)
+  (gr_text "IO5" (at 101.092 119.38) (layer "F.SilkS") (tstamp 5022fa07-4d99-46c0-adc5-e0e2e2caa70e)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "IO4" (at 109.728 121.92) (layer "F.SilkS") (tstamp a79684bd-c7ca-48da-bf66-b1a842317997)
+  (gr_text "IO4" (at 101.092 121.92) (layer "F.SilkS") (tstamp a79684bd-c7ca-48da-bf66-b1a842317997)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "IO15" (at 109.22 114.3) (layer "F.SilkS") (tstamp b3052a61-41aa-431e-9353-5ad551240745)
+  (gr_text "IO15" (at 100.584 114.3) (layer "F.SilkS") (tstamp b3052a61-41aa-431e-9353-5ad551240745)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "IO36" (at 109.22 109.22) (layer "F.SilkS") (tstamp bf84522b-cee0-4c23-a7b2-750e90848441)
+  (gr_text "IO36" (at 100.584 109.22) (layer "F.SilkS") (tstamp bf84522b-cee0-4c23-a7b2-750e90848441)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "IO35" (at 109.22 111.76) (layer "F.SilkS") (tstamp e5085bac-da3e-47e1-9f3f-6edf9cd21b81)
+  (gr_text "IO35" (at 100.584 111.76) (layer "F.SilkS") (tstamp e5085bac-da3e-47e1-9f3f-6edf9cd21b81)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "GNDPWR" (at 107.95 88.9) (layer "F.SilkS") (tstamp f9bae7a8-4c44-4b79-b21e-76ed59d9bdc3)
+  (gr_text "GNDPWR" (at 99.269 88.925) (layer "F.SilkS") (tstamp f9bae7a8-4c44-4b79-b21e-76ed59d9bdc3)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 1c7cff1c-0d1b-4c69-be1b-b46038d6fc2b)
-    (pts (xy 97.79 52.07) (xy 63.5 52.07))
+    (pts (xy 97.79 50.8) (xy 63.5 50.8))
     (height 0)
-    (gr_text "34.2900 mm" (at 80.645 50.92) (layer "Dwgs.User") (tstamp 1c7cff1c-0d1b-4c69-be1b-b46038d6fc2b)
+    (gr_text "34,2900 mm" (at 80.645 49.65) (layer "Dwgs.User") (tstamp 1c7cff1c-0d1b-4c69-be1b-b46038d6fc2b)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 2) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 1e58a56e-134d-4669-9621-46ce007ae8f6)
-    (pts (xy 115.57 45.72) (xy 63.5 45.72))
+    (pts (xy 115.824 48.26) (xy 63.5 48.26))
     (height 0)
-    (gr_text "52.0700 mm" (at 89.535 44.57) (layer "Dwgs.User") (tstamp 1e58a56e-134d-4669-9621-46ce007ae8f6)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (format (units 2) (units_format 1) (precision 4))
-    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
-  )
-  (dimension (type aligned) (layer "Dwgs.User") (tstamp 3d9ffe00-745c-4d72-8028-fd9b1d9bb48d)
-    (pts (xy 124.46 41.91) (xy 63.5 41.91))
-    (height 0)
-    (gr_text "60.9600 mm" (at 93.98 40.76) (layer "Dwgs.User") (tstamp 3d9ffe00-745c-4d72-8028-fd9b1d9bb48d)
+    (gr_text "52,3240 mm" (at 89.662 47.11) (layer "Dwgs.User") (tstamp 1e58a56e-134d-4669-9621-46ce007ae8f6)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 2) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 58cd25a9-115d-4c77-957c-6a48e0493c9a)
-    (pts (xy 133.35 38.1) (xy 63.5 38.1))
+    (pts (xy 133.35 45.72) (xy 63.5 45.72))
     (height 0)
-    (gr_text "69.8500 mm" (at 98.425 36.95) (layer "Dwgs.User") (tstamp 58cd25a9-115d-4c77-957c-6a48e0493c9a)
+    (gr_text "69,8500 mm" (at 98.425 44.57) (layer "Dwgs.User") (tstamp 58cd25a9-115d-4c77-957c-6a48e0493c9a)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 2) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 60a59705-94e3-41c4-98b2-6356a43bd6b1)
-    (pts (xy 139.7 90.17) (xy 139.7 54.61))
+    (pts (xy 120.904 90.17) (xy 120.904 54.61))
     (height 0)
-    (gr_text "1.4000 in" (at 138.55 72.39 90) (layer "Dwgs.User") (tstamp 60a59705-94e3-41c4-98b2-6356a43bd6b1)
+    (gr_text "1,4000 in" (at 119.754 72.39 90) (layer "Dwgs.User") (tstamp 60a59705-94e3-41c4-98b2-6356a43bd6b1)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 0) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 757cb625-3383-481c-8f22-550a6117d0b0)
-    (pts (xy 62.23 54.61) (xy 62.23 127))
+    (pts (xy 57.658 54.61) (xy 57.658 127))
     (height 2.54)
-    (gr_text "72.3900 mm" (at 58.54 90.805 90) (layer "Dwgs.User") (tstamp 757cb625-3383-481c-8f22-550a6117d0b0)
+    (gr_text "72,3900 mm" (at 53.968 90.805 90) (layer "Dwgs.User") (tstamp 757cb625-3383-481c-8f22-550a6117d0b0)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 2) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "Dwgs.User") (tstamp 7baea5d6-e936-4fc8-ba29-d0a28f859bdd)
+    (pts (xy 150.876 43.18) (xy 63.5 43.18))
+    (height 0)
+    (gr_text "87,3760 mm" (at 107.188 42.03) (layer "Dwgs.User") (tstamp 58cd25a9-115d-4c77-957c-6a48e0493c9a)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 2) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
   (dimension (type aligned) (layer "Dwgs.User") (tstamp a3916dab-50fc-435a-ae47-113a3cd723e5)
-    (pts (xy 128.27 99.06) (xy 128.27 127))
+    (pts (xy 119.634 99.06) (xy 119.634 127))
     (height -1.27)
-    (gr_text "1.1000 in" (at 128.39 113.03 90) (layer "Dwgs.User") (tstamp a3916dab-50fc-435a-ae47-113a3cd723e5)
+    (gr_text "1,1000 in" (at 119.754 113.03 90) (layer "Dwgs.User") (tstamp a3916dab-50fc-435a-ae47-113a3cd723e5)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 0) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
+  (dimension (type aligned) (layer "Dwgs.User") (tstamp c489b135-5b23-4e39-85ca-06a0114a35b2)
+    (pts (xy 80.772 53.34) (xy 63.5 53.34))
+    (height 0)
+    (gr_text "17,2720 mm" (at 72.136 52.19) (layer "Dwgs.User") (tstamp 1c7cff1c-0d1b-4c69-be1b-b46038d6fc2b)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 2) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
+  )
 
+  (group "" (id 1f8fad6c-d08f-4df8-bb3e-89cb63550983)
+    (members
+      00000000-0000-0000-0000-0000600d9294
+      00000000-0000-0000-0000-0000600d9295
+      00000000-0000-0000-0000-0000600d9296
+      00000000-0000-0000-0000-0000600d9297
+      00000000-0000-0000-0000-0000600d9298
+      00000000-0000-0000-0000-0000600d9299
+      00000000-0000-0000-0000-0000600d92be
+      00000000-0000-0000-0000-0000600d92bf
+      00000000-0000-0000-0000-0000600d92c0
+      00000000-0000-0000-0000-0000600d92c1
+      00000000-0000-0000-0000-0000600d92c2
+      00000000-0000-0000-0000-0000600d92c3
+      00000000-0000-0000-0000-0000600dfb76
+      00000000-0000-0000-0000-0000600dfbdd
+      1c7cff1c-0d1b-4c69-be1b-b46038d6fc2b
+      1e58a56e-134d-4669-9621-46ce007ae8f6
+      290a0d14-de36-4aca-bbd8-c54dddb398d7
+      58cd25a9-115d-4c77-957c-6a48e0493c9a
+      757cb625-3383-481c-8f22-550a6117d0b0
+      7baea5d6-e936-4fc8-ba29-d0a28f859bdd
+      8d4dd0c1-3cd7-42e2-97b7-2a895cda37ba
+      b7a358b5-0c13-4e3f-ba76-86782ce5dc9e
+      c489b135-5b23-4e39-85ca-06a0114a35b2
+    )
+  )
+  (group "" (id 2810819f-56c3-4322-9fea-755ff639b54e)
+    (members
+      00000000-0000-0000-0000-0000600cfa97
+      00000000-0000-0000-0000-0000600d125a
+      00000000-0000-0000-0000-000060e961ea
+      053ff279-d5db-47a8-98c0-a7fa0fe4e6e0
+      23c3ec1d-cb5b-47e0-86a2-26892a8bc15a
+      27ba317f-7334-46b5-a946-a51d77d25098
+      36981d6b-f815-440e-a57e-c3a75a48ec2e
+      3a5ee383-d441-4657-a452-74327c44edd8
+      3e5d3996-8c5f-48ca-9241-521bfd3a1e54
+      5022fa07-4d99-46c0-adc5-e0e2e2caa70e
+      60a59705-94e3-41c4-98b2-6356a43bd6b1
+      a3916dab-50fc-435a-ae47-113a3cd723e5
+      a79684bd-c7ca-48da-bf66-b1a842317997
+      b3052a61-41aa-431e-9353-5ad551240745
+      bf84522b-cee0-4c23-a7b2-750e90848441
+      d0695945-e153-4850-83a8-45014bf0d5dd
+      d617ee85-8a02-465c-901a-1e7833fcb7a7
+      e5085bac-da3e-47e1-9f3f-6edf9cd21b81
+      f9bae7a8-4c44-4b79-b21e-76ed59d9bdc3
+    )
+  )
 )
