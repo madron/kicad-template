@@ -365,8 +365,8 @@
         "microvia_drill": 0.3,
         "name": "Power",
         "nets": [
-          "+5V",
           "+3V3",
+          "+5V",
           "GND",
           "GNDPWR"
         ],
